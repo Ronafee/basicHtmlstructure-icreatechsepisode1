@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <title> HTML Forms Assignment</title>
+     <meta charset= "UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="assignment2.css">
+    </head>
+    <body>
+        <div>
+            <div class="Contact_Us">
+                <form action="#" method="post">
+                    <h1>Contact Us</h1>
+                    <label>Name:</label>
+                    <input class="input_1" type="text"><br>
+                    <label>Email:</label>
+                    <input class="input_1" type="email"><br>
+                    <label id="message">Message:</label>
+                    <textarea placeholder="your message here"></textarea><br>
+                    <input class="contact_button" type="submit" value="Submit">
+                 </form>
+            </div>
+            <div class="Login">
+                <form action="#" method="post">
+                    <h1> Login</h1>
+                    <label> Username</label>
+                    <input class="input_2" type="text"><br>
+                    <label> Password</label>
+                    <input class="input_2" type="password"><br>
+                    <input class="Login_button" class="button" type="submit" value="Login">
+                </form>
+            </div>
+            <div>
+                <form class="Survey">
+                    <h1>Survey</h1>
+                    <label> Name:</label>
+                    <input class="survey_input" type="text"><br>
+                    <label> Age:</label>
+                    <input class="survey_input" type="number"><br>
+                    <div class="gender">
+                        <label>Gender</label><br>
+                        <input  type="radio" id="male" value="Male">
+                        <label for="male">Male</label>
+                        <input  type="radio" id="female" value="Female">
+                        <label for="female">Female</label><br>
+                    </div>
+                    <div class="select">
+                        <label> Which programming languages do you know?</label><br>
+                        <input  type="checkbox" id="python" value="Python">
+                        <label for="python">Python</label><br>
+                        <input  type="checkbox" id="java"value="Java">
+                        <label for="java">Java</label><br>
+                        <input type="checkbox" id="c#" value="C#">
+                        <label for="c#">C#</label><br>
+                        <input  type="checkbox" id="c++" value="C++">
+                        <label for="c++">C++</label><br>
+                        <input type="checkbox" id="other" value="Other">
+                        <label for="other" > Other</label><br>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

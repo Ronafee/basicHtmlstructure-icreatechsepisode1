@@ -1,0 +1,29 @@
+p,li{
+    color: 	#454B1B;
+}
+
+a{
+    color: #AA4A44;
+    text-decoration: none
+}
+
+a:hover{
+   color: #AA4A44;
+   text-decoration: underline;
+   opacity: 0.8
+
+}
+
+.table{
+    margin: 50px;
+    border: 1px solid  #AA4A44;
+    margin-left: 10px;
+    width: 27%;
+
+}
+
+.table:hover{
+    border: 2px solid #244c4c;
+    box-shadow:#193e50 
+}
+

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    margin-top: 1px;
+    margin: 0;
+    background-color: #1D1E22;
+}
+.Contact_Us, .Login, .Survey{
+    text-align: Center;
+    margin: 80px;
+    
+   
+}
+.Contact_Us{
+    color: #497482;
+    font-family:sans-serif;
+    
+
+}
+.input_1{
+   margin: 5px;
+   outline: none;
+   border-radius: 5px;
+   height: 28px;
+   width: 300px;
+   border: 1px solid #3e7283; 
+   outline: none;
+   text-indent: 15px;
+}
+textarea{
+   margin: 5px 21px 0px 0px;
+   outline: none;
+   border-radius: 5px;
+   height: 28px;
+   width: 300px;
+   border: 1px solid #3e7283; 
+   outline: none;
+   text-indent: 15px;
+}
+textarea:hover{
+    border:  2px solid #8dbbca;
+    outline: none;
+    opacity: 0.7;
+    height: 70px;
+    box-shadow:  5px 10px 18px #aae7fc;
+}
+.input_1:hover{
+    border:  2px solid #8dbbca;
+    outline: none;
+    opacity: 0.7;
+    box-shadow: 5px 10px 18px #aae7fc;
+}
+.contact_button{
+    padding: 7px 10px 7px 10px;
+    margin-left: 43px;
+    color:  #497482;
+    
+}
+.contact_button:hover{
+    background-color:#3e7283;
+    color: white;
+    opacity: 0.7;
+    box-shadow: 5px 10px 18px #aae7fc;
+}
+
+.Login{
+    color: #614061
+}
+
+.input_2{
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #7f4d7f;
+    margin: 5px;
+    outline: none;
+    text-indent: 15px;
+}
+.input_2:hover{
+    box-shadow:  4px 3px 4px 3px #600060
+}
+
+.Login_button{
+    padding: 7px 10px 7px 10px;
+    margin-left: 43px;
+    color: #7f4d7f;
+}
+.Login_button:hover{
+    background-color:  #600060;
+    color: white;
+    box-shadow: 2px 1px 2px 1px  #600060;
+    opacity:0.6;
+    outline: none
+}
+
+.Survey{
+    color:#097969
+}
+
+.survey_input{
+    margin: 5px;
+    outline: none;
+    text-indent: 15px;
+    border: 1px solid #097969;
+    width: 221px;
+    height: 30px;
+}
+
+.gender{
+    margin: 15px;
+}
+
+.select{
+    border: 1px solid #097969;
+    width: 400px;
+    background-color:#097969;
+    color: white;
+    margin-left: 38%
+}
